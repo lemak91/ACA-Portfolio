@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ACA Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.cdnfonts.com/css/russo-one" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div>
+      <h1 class="name">Contact</h1>
+      <div class="contactlinks">
+        <a
+          href="https://www.facebook.com/jay.berd.5"
+          target="_blank"
+          class="fa fa-facebook"
+        ></a>
+        <a
+          href="https://www.instagram.com/jayberdd/"
+          target="_blank"
+          class="fa fa-instagram"
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/john-lemak-0770b5150/"
+          target="_blank"
+          class="fa fa-linkedin"
+        ></a>
+        <a href="mailto: lemak91@mac.com" class="fa fa-envelope"></a>
+      </div>
+    </div>
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="resume.html">Resume</a>
+      <a href="portfolio.html">Portfolio</a>
+    </div>
+
+    <span
+      style="font-size: 30px; color: white; padding-left: 20px; cursor: pointer"
+      onclick="openNav()"
+      >&#9776;
+    </span>
+
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "150px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+    </script>
+  </body>
+</html>

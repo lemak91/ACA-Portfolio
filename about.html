@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ACA Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.cdnfonts.com/css/russo-one" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div>
+      <h1 class="name">About Me</h1>
+      <h2 class="about">Hello, my name is John Lemak and I was born and raised in Dallas, Texas. I have lived in Texas, Colorado, New York, and California. I have worked in audio and tech for 15 years. Music and technology is my love and passion. </h2>
+    </div>
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="resume.html">Resume</a>
+      <a href="portfolio.html">Portfolio</a>
+    </div>
+
+    <div class="aboutmephobox">
+    <img class="aboutmepho" src="../images/aboutme.jpg">
+    </div>
+
+    <span
+      style="font-size: 30px; color: white; padding-left: 20px; cursor: pointer"
+      onclick="openNav()"
+      >&#9776;
+    </span>
+
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "150px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+    </script>
+
+    
+
+    <!-- <ul class="nav">
+      <li><a class="hvr-sweep-to-right" href="#home">Home</a></li>
+      <li><a class="hvr-sweep-to-right" href="#resume">Resume</a></li>
+      <li><a class="hvr-sweep-to-right" href="#contact">Contact</a></li>
+      <li><a class="hvr-sweep-to-right" href="#about">About</a></li>
+
+      <div>
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-instagram"></a>
+      <a href="#" class="fa fa-linkedin"></a>
+      </div>
+      
+    </ul>
+
+    <div class="container">
+      <div class="tag">Hello, my name is Jay and this is my portfolio.</div>
+    </div>
+
+    
+      <img class="speaker" src="/images/2stack.jpg"> -->
+  </body>
+</html>
